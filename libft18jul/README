@@ -1,0 +1,47 @@
+Os arquivos a serem feitos podem ser divididos em três fases de acordo com o nível de dificuldade.
+
+Fase 1
+• isalpha
+• isdigit
+• isalnum
+• isascii
+• isprint
+• strlen
+• toupper
+• tolower
+• strchr
+• strrchr
+• strncmp
+
+Fase 2
+• memset
+• bzero
+• memcpy
+• memchr
+• memcmp
+• strnstr
+• atoi
+• calloc
+• memmove
+• strdup
+
+• strlcpy
+• strlcat
+
+Fase 3
+ft_substr
+ft_putchar_fd
+ft_putstr_fd
+ft_putnbr_fd
+ft_putendl_fd
+ft_strmapi
+ft_striteri
+
+ft_itoa
+ft_strjoin
+ft_split
+ft_strtrim
+
+
+
+
