@@ -14,14 +14,15 @@ Fase 1
 • strncmp
 
 Fase 2
+• atoi
+• calloc
 • memset
 • bzero
+
 • memcpy
 • memchr
 • memcmp
 • strnstr
-• atoi
-• calloc
 • memmove
 • strlcpy
 • strlcat
@@ -37,8 +38,8 @@ ft_strmapi
 ft_striteri
 ft_itoa
 ft_strjoin
-ft_split
 
+ft_split
 ft_strtrim
 
 

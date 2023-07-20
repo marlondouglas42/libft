@@ -40,10 +40,10 @@ char *ft_substr(char const *s, unsigned int start, size_t len)
 	return ptr_s2;
 }
 
-int main(void)
-{
-	char str1[] = "Buenos dias, senor!";
-	char *substr;
+// int main(void)
+// {
+// 	char str1[] = "Buenos dias, senor!";
+// 	char *substr;
 
-	printf("Substr: %s\n", ft_substr(str1, 0, ft_strlen(str1)));
-}
+// 	printf("Substr: %s\n", ft_substr(str1, 0, ft_strlen(str1)));
+// }
