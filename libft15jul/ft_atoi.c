@@ -25,7 +25,7 @@ int ft_atoi(const char *str)
       sign = -1;
     i++;
   }
-  while (ft_isdigit(str[i]))
+  while (ft_isalpha(str[i]))
   {
     result = result * 10 + (str[i] - '0');
     i++;

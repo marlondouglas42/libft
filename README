@@ -1,0 +1,70 @@
+Os arquivos a serem feitos podem ser divididos em três fases de acordo com o nível de dificuldade.
+
+Fase 1
+• isalpha
+• isdigit
+• isalnum
+• isascii
+• isprint
+• toupper
+• tolower
+• strlen
+• strchr - acha um char na string e retorna o ponteiro
+• strrchr - acha a ultima ocorrencia de um char na string e retorna o ponteiro
+• (!) strnstr - locate a substring in a string
+• strncmp
+• atoi - convert string to integer
+
+Fase 2
+• strlcpy - copia string
+• strlcat - append a string in a string
+• memchr - scan memory for a character
+• memset - fill memory with a constant byte
+• (!) memcmp - compare memory areas
+• bzero - apaga dados em uma memory area
+• calloc - malloc com valores iniciados com zero
+• memcpy (memory overlap) - copy memory area - safe
+• (!) memmove (memory overlap) - copy memory area - unsafe - char pointer arithmetic
+• strdup - duplicate a string
+
+Fase 3
+ft_putchar_fd
+ft_putstr_fd
+(!) ft_putnbr_fd
+ft_putendl_fd - escreve a string fornecida com \n no final
+(!) ft_itoa - convert integer to string
+ft_strmapi - apply function to every char in string - retorna string
+(!) ft_striteri - apply function to every char in string - recebe ponteiro
+(!) ft_strtrim - remove espaços em brancos do início e do fim
+(!) ft_substr - extrai parte de um string para uma nova string
+ft_strjoin
+(!) ft_split
+
+---
+
+bacate
+abacate
+
+---
+
+TESTES
+
+clear; gcc ./src/ft_isalpha.c ./tests/test_ft_isalpha.c -lrt -lm -o test_program && ./test_program
+clear; gcc ./src/ft_isdigit.c ./tests/test_ft_isdigit.c -lrt -lm -o test_program && ./test_program
+clear; gcc ./src/ft_isalnum.c ./src/ft_isalpha.c ./src/ft_isdigit.c ./tests/test_ft_isalnum.c -lrt -lm -o test_program -I./ && ./test_program
+clear; gcc ./src/ft_isascii.c ./tests/test_ft_isascii.c -lrt -lm -o test_program && ./test_program
+clear; gcc ./src/ft_isprint.c ./tests/test_ft_isprint.c -lrt -lm -o test_program && ./test_program
+clear; gcc ./src/ft_strlen.c ./tests/test_ft_strlen.c -lrt -lm -o test_program -I./ && ./test_program
+clear; gcc ./src/ft_tolower.c ./tests/test_ft_tolower.c -lrt -lm -o test_program -I./ && ./test_program
+clear; gcc ./src/ft_toupper.c ./tests/test_ft_toupper.c -lrt -lm -o test_program -I./ && ./test_program
+clear; gcc ./src/ft_strchr.c ./tests/test_ft_strchr.c -lrt -lm -o test_program -I./ && ./test_program
+
+
+---
+
+
+
+
+
+
+

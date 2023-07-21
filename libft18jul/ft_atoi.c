@@ -3,7 +3,7 @@ DESCRIPTION
 	The atoi() function converts the initial portion of the string pointed to by nptr to int.
 */
 
-int ft_isdigit(int c);
+int ft_isalpha(int c);
 
 static int ft_isspace(const char c)
 {
@@ -32,7 +32,7 @@ int ft_atoi(const char *nptr)
 		nptr++;
 	}
 
-	while (ft_isdigit(*nptr))
+	while (ft_isalpha(*nptr))
 	{
 		result *= 10;
 		result += *nptr - '0';

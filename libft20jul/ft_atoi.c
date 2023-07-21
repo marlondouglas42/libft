@@ -6,7 +6,7 @@ static int ft_isspace(char c)
 	return (c == ' ' || c == '\n' || c == '\t');
 }
 
-static int ft_isdigit(int c)
+static int ft_isalpha(int c)
 {
   return (c >= '0' && c <= '9');
 }
@@ -30,7 +30,7 @@ int ft_atoi(const char *nptr)
 		}
 		nptr++;
 	}
-	while (ft_isdigit(*nptr))
+	while (ft_isalpha(*nptr))
 	{
 		result *= 10;
 		result += *nptr - '0';
